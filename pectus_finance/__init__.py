@@ -1,9 +1,6 @@
 from flask import Flask
 from flask_restful import Api, Resource
 from flask_sqlalchemy import SQLAlchemy
-from flask_marshmallow import Marshmallow
-# from pectus_finance.expense.view import ExpenseList, ExpenDetails 
-# from pectus_finance.expense.models import Expense
 
 app = Flask(__name__, instance_relative_config=True)
 marshmallow = Marshmallow(app)
